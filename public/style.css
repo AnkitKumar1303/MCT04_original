@@ -28,10 +28,9 @@ body {
   align-items: center;
   background: rgb(231, 226, 221);
   z-index: 1;
-  border: 2px solid cyan;
-  background: cyan;
-  box-shadow: 10px 6px 10px 2px red;
-  background-image: linear-gradient(rgb(84, 68, 106), rgb(58, 58, 51) 5%, rgb(110, 210, 233) 25%);
+  background: rgb(3, 201, 201);
+  box-shadow: 10px 6px 10px 2px rgba(28, 24, 24, 0.619);
+  
 }
 .navbar-center {
   width: 100%;
@@ -53,10 +52,10 @@ body {
   position: absolute;
   top: -8px;
   right: -8px;
-  background: var(--primaryColor);
+  background: rgb(60, 56, 56);
   padding: 0 5px;
   border-radius: 30%;
-  color: var(--mainWhite);
+  color: skyblue;
 }
 /* --------------- End of Navbar ---------------- */
 /* --------------- Hero ---------------- */
@@ -74,14 +73,21 @@ body {
   background: rgba(255, 255, 255, 0.8);
   display: inline-block;
   padding: 2rem;
-  opacity: 0.5;
+  opacity: 1;
+  box-shadow: 0px 0px 24px 2.5px rgba(0,0,0,0.75);
 }
 .banner-title {
-  font-size: 3.4rem;
-  text-transform: uppercase;
-  letter-spacing: var(--mainSpacing);
-  margin-bottom: 3rem;
-  font-weight: 1300;
+  margin: 40px auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: #121212;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 4px 10px 8px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+  
+ 
   
 }
 .banner-btn {
@@ -91,10 +97,12 @@ body {
   font-size: 1rem;
   background: yellowgreen;
   color: var(--mainBlack);
-  border: 1px solid var(--primaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
   font-weight: 900;
+  border: none;
+  box-shadow: 0px 0px 24px 2.5px rgba(0,0,0,0.75);
+  border-radius: 8px;
   
 }
 .banner-btn:hover {
@@ -107,14 +115,19 @@ body {
 
 .products {
   padding: 4rem 0;
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+  box-shadow: 0px 0px 24px 2.5px rgba(0,0,0,0.75);
 }
 .section-title h2 {
+  margin: 40px auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: #121212;
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 5rem;
-  text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: 5px;
+  text-shadow: 4px 10px 8px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
 }
 .products-center {
   width: 90vw;
@@ -128,17 +141,19 @@ body {
 .img-container {
   position: relative;
   overflow: hidden;
+  box-shadow: 0px 0px 24px 2.5px rgba(0,0,0,0.75);
+  border-radius: 31px 5px 33px 4px;
   
 }
 .img-container:hover{
-  transform:scale(1.1);
+  transform:scale(1.05);
 
 }
 .bag-btn {
   position: absolute;
   top: 70%;
   right: 0;
-  background: var(--primaryColor);
+  background: black;
   border: none;
   text-transform: uppercase;
   padding: 0.5rem 0.75rem;
@@ -147,9 +162,11 @@ body {
   transition: var(--mainTransition);
   transform: translateX(101%);
   cursor: pointer;
+  color: skyblue;
 }
 .bag-btn:hover {
-  color: var(--mainWhite);
+  color: black;
+  background: beige;
 }
 .fa-shopping-cart {
   margin-right: 0.5rem;
@@ -164,7 +181,7 @@ body {
   transition: var(--mainTransition);
 }
 .img-container:hover .product-img {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .product h3 {
@@ -178,7 +195,7 @@ body {
 .product h4 {
   margin-top: 0.7rem;
   letter-spacing: var(--mainSpacing);
-  color: var(--primaryColor);
+  color:whitesmoke;
   text-align: center;
 }
 
@@ -203,7 +220,7 @@ body {
   height: 100%;
   overflow: scroll;
   z-index: 3;
-  background: rgb(231, 226, 221);
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
   padding: 1.5rem;
   transition: var(--mainTransition);
   transform: translateX(100%);
@@ -224,12 +241,15 @@ body {
 .close-cart {
   font-size: 1.7rem;
   cursor: pointer;
+  color: whitesmoke;
+
 }
 .cart h2 {
   text-transform: capitalize;
   text-align: center;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 2rem;
+  color: whitesmoke;
 }
 /*---------- Cart Item -------------------- */
 .cart-item {
@@ -238,16 +258,17 @@ body {
   grid-template-columns: auto 1fr auto;
   grid-column-gap: 1.5rem;
   margin: 1.5rem 0;
-  border: 2px solid red;
+  
   height: 150px;
-  background-color: cyan;
-  box-shadow: 2px 2px 4px 2px rgb(8, 105, 105);
+  box-shadow: 0px 0px 24px 2.5px rgba(0,0,0,0.75);
+  background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
 }
 .cart-item img {
   width: 75px;
   height: 75px;
   margin-left: 10px;
-  border: 1px solid green;
+  box-shadow: 0px 0px 24px 2.5px rgba(0,0,0,0.75);
+  border-radius: 12px 2px 12px 2px;
 }
 .cart-item h4 {
   font-size: 0.85rem;
@@ -262,17 +283,17 @@ body {
 }
 .item-amount {
   text-align: center;
-  margin-right: 15px;
+  margin-right: 20px;
+  color: skyblue;
 }
 .remove-item {
   font-size: 18px;
   padding-left: 5px;
   padding-right: 5px;
   cursor: pointer;
-  color: white;
+  color: whitesmoke;
   background-color: black;
-  border-radius: 2px;
-  box-shadow: 2px 2px 3px 1px  red;
+  box-shadow: 0px 0px 24px 2.5px rgba(0,0,0,0.75);
 }
 .fa-chevron-up,
 .fa-chevron-down {
@@ -281,11 +302,38 @@ body {
   margin-right: 20px;
 }
 .clear-cart{
-  color: white;
-  background-color: black;
-  border-radius: 10px;
-  box-shadow: 4px 2px 4px 1px red;
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    width: 220px;
+    height: 50px;
+    font-weight: 900;
 }
+.clear-cart:hover{
+  
+    color: black;
+    height: 60px;
+    width: 250px;
+}
+.pay-btn{
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    width: 220px;
+    height: 50px;
+    font-weight: 900;
+}
+.pay-btn:hover{
+    
+    color: black;
+    height: 60px;
+    width: 250px;
+}
+
 /*---------- End of Cart Item -------------------- */
 
 .cart-footer {
@@ -309,8 +357,8 @@ footer {
   background-color: #d5afaf;
   color: #fff;
   padding: 20px 0;
-  background-image: linear-gradient(to right, rgb(199, 110, 110) , rgb(52, 123, 149));
-  box-shadow: 4px 2px 4px 2px rgb(16, 13, 13);
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  box-shadow: 0px 0px 24px 2.5px rgba(0,0,0,0.75);
 }
 
 .footer-container {

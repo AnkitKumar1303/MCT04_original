@@ -4,7 +4,7 @@
         "sys": { "id": "1" },
         "fields": {
           "title": "Autumn Hoodie",
-          "price": 2199.00,
+          "price": 1999.99,
           "image": { "fields": { "file": { "url": "https://lp2.hm.com/hmgoepprod?set=source[/ff/ce/ffceb64013ad710d0b81b523d15e7c958a8f821f.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]" } } }
         }
       },
@@ -12,7 +12,7 @@
         "sys": { "id": "2" },
         "fields": {
           "title": "FUSION HOODIE",
-          "price": 2999.99,
+          "price": 3000.00,
           "image": { "fields": { "file": { "url": "https://lp2.hm.com/hmgoepprod?set=source[/3a/58/3a5836558470535c531d9eb47b26b7d8281c0512.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]" } } }
         }
       },
@@ -20,7 +20,7 @@
         "sys": { "id": "3" },
         "fields": {
           "title": "Chestnut Brown",
-          "price": 1999.00,
+          "price": 2899.99,
           "image": { "fields": { "file": { "url": "https://lp2.hm.com/hmgoepprod?set=source[/53/fe/53feb049da932ffba9f471a77dcd0d7d864ffbbe.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]" } } }
         }
       },
@@ -28,7 +28,7 @@
         "sys": { "id": "4" },
         "fields": {
           "title": "Nike Sportswear",
-          "price": 2699.00,
+          "price": 1599.25,
           "image": { "fields": { "file": { "url": "https://lp2.hm.com/hmgoepprod?set=source[/84/f8/84f88d3954a062c3c7e056140f8377041777262e.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]" } } }
         }
       },
@@ -36,7 +36,7 @@
         "sys": { "id": "5" },
         "fields": {
           "title": "Champion BASIC",
-          "price": 3599.01,
+          "price": 1000.00,
           "image": { "fields": { "file": { "url": "https://lp2.hm.com/hmgoepprod?set=source[/73/e9/73e9d01584adb145c7cb8a7c6d308e26d561bf50.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]" } } }
         }
       },
@@ -44,7 +44,7 @@
         "sys": { "id": "6" },
         "fields": {
           "title": "Cotton Hoodie",
-          "price": 2532.99,
+          "price": 2000.00,
           "image": { "fields": { "file": { "url": "https://lp2.hm.com/hmgoepprod?set=source[/64/37/6437c8db5a20d6e6f286ce9b37a5eb6ab7b11880.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]" } } }
         }
       },
@@ -52,7 +52,7 @@
         "sys": { "id": "7" },
         "fields": {
           "title": "CLASSIC CREWNECK",
-          "price": 3545.99,
+          "price": 3000.99,
           "image": { "fields": { "file": { "url": "https://lp2.hm.com/hmgoepprod?set=source[/d5/84/d5841a9d85333f63c6a6e285c089af070acfdc53.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]" } } }
         }
       },
@@ -60,7 +60,7 @@
         "sys": { "id": "8" },
         "fields": {
           "title": "TAPE HOODED",
-          "price": 1440.99,
+          "price": 1500,
           "image": { "fields": { "file": { "url": "https://lp2.hm.com/hmgoepprod?set=source[/4f/c8/4fc87d780f3fec5b83add34026b657ec0e915df0.jpg],origin[dam],category[men_hoodiessweatshirts_hoodies],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]" } } }
         }
       },
@@ -70,7 +70,7 @@
         },
         "fields": {
           "title": "Reverse Hoddie",
-          "price": 4386.99,
+          "price": 4999.99,
           "image": {
             "fields": {
               "file": {
@@ -86,7 +86,7 @@
         },
         "fields": {
           "title": "Plain Sweet",
-          "price": 2378.99,
+          "price": 1500.98,
           "image": {
             "fields": {
               "file": {
@@ -102,7 +102,7 @@
         },
         "fields": {
           "title": "Powerblend Hoddie",
-          "price": 8289.99,
+          "price": 2000.00,
           "image": {
             "fields": {
               "file": {
@@ -118,7 +118,7 @@
         },
         "fields": {
           "title": "Game Day Hoddie",
-          "price": 2248.99,
+          "price": 1000,
           "image": {
             "fields": {
               "file": {
@@ -130,3 +130,4 @@
       }
     ]
   }
+  
