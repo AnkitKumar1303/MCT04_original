@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3001;
-
+const path=require('path');
 
 const Razorpay=require("razorpay");
 const cors=require("cors");
@@ -9,8 +9,13 @@ const cors=require("cors");
 
 app.use(express.json());
 app.use(cors());
+
+app.get("/file",(req,res)=>{
+    res.sendFile(path.join(_dirname,'/index.html'));
+});
 app.get("/",(req,res)=>{
-    res.redirect('./public/index.html');
+    res.send('Hiii');
+    res.end();
 });
 app.post("/payment", async (req, res)=>{
     let {amount}=req.body;
@@ -31,5 +36,5 @@ app.post("/payment", async (req, res)=>{
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}`);
+  console.log(`Server is running on port:${port}`);
 });
