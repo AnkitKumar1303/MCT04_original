@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/file",(req,res)=>{
-    res.sendFile(path.join(_dirname,'/index.html'));
+    res.sendFile(path.join(__dirname,'/public'));
 });
 app.get("/",(req,res)=>{
     res.send('Hiii');
