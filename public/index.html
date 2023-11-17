@@ -148,7 +148,7 @@ let response = await fetch("http://localhost:3001/payment",{
         "Content-Type":"application/json"
     },
     body:JSON.stringify({
-        amount:700000,
+        amount:500000,
     })
 })
 
@@ -156,7 +156,7 @@ let orderData = await response.json();
 
     var options = {
     "key": "rzp_test_Bo9oZ7LjeoAkeF", // Enter the Key ID generated from the Dashboard
-    "amount": "700000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+    "amount": "500000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
     "currency": "INR",
     "order_id":orderData.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
     "callback_url": "https://www.google.com/",
