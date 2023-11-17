@@ -10,7 +10,7 @@ const cors=require("cors");
 app.use(express.json());
 app.use(cors());
 app.get("/",(req,res)=>{
-    res.redirect('/index.html');
+    res.redirect('./public/index.html');
 });
 app.post("/payment", async (req, res)=>{
     let {amount}=req.body;
